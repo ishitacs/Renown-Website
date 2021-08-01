@@ -1,0 +1,82 @@
+#join-sec1 {
+  background: linear-gradient(
+    180deg,
+    rgba(250, 165, 103, 0.7) 0%,
+    rgba(255, 210, 231, 0.7) 70.83%,
+    rgba(253, 249, 249, 0.7) 97.92%
+  );
+}
+.card,
+#style-carousel {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  background: linear-gradient(
+    180deg,
+    #2464fa 17.19%,
+    #ffd2e7 70.83%,
+    #fdf9f9 97.92%
+  );
+
+  box-sizing: border-box;
+  border-radius: 26px;
+  width: 298px;
+  height: 600px;
+}
+.card-text {
+  color: #fdf9f9;
+  font-family: Montserrat;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  line-height: 24px;
+}
+.card-text-btm {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.1em;
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login-sec1-mob {
+  background: linear-gradient(
+    180deg,
+    #407bff 18.23%,
+    #ffd2e7 70.83%,
+    #fdf9f9 97.92%
+  );
+}
+#loginFormBody {
+  width: 323px;
+  height: 437px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 21px;
+}
+.Login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-control {
+  width: 268px;
+  height: 37px;
+  background: #fdf9f9;
+  border: 0.25px solid #ffe6e6;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
